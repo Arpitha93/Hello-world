@@ -3,10 +3,11 @@ package com.arpitha;
 public class Main {
 
     public static void main(String[] args) {
-	byte myByteValue = 20;
-	int myIntValue = 10;
-	short myShortValue = 50;
-	long myLongTotal = 1000L + 10L * (myByteValue+myIntValue+myShortValue);
-        System.out.println("long total =" +myLongTotal);
+	int myIntValue = 5/3;
+	float myFloatValue = 5f/3f;
+	double myDoubleValue = 5d/3d;
+        System.out.println("myIntValue =" +myIntValue);
+        System.out.println("myFLoatValue=" +myFloatValue);
+        System.out.println("mydoublevalue =" +myDoubleValue);
     }
 }
